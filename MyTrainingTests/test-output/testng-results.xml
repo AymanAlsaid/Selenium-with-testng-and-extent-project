@@ -1,155 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-30T12:46:42 EET" name="Default suite" finished-at="2022-10-30T12:50:15 EET" duration-ms="212486">
+  <suite started-at="2022-11-01T13:33:07 EET" name="Default suite" finished-at="2022-11-01T13:34:40 EET" duration-ms="92838">
     <groups>
     </groups>
-    <test started-at="2022-10-30T12:46:42 EET" name="Default test" finished-at="2022-10-30T12:50:15 EET" duration-ms="212486">
-      <class name="test.BuyProducts">
-        <test-method is-config="true" signature="reportSetup()[pri:0, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:46:41 EET" name="reportSetup" finished-at="2022-10-30T12:46:42 EET" duration-ms="804" status="PASS">
+    <test started-at="2022-11-01T13:33:07 EET" name="Default test" finished-at="2022-11-01T13:34:40 EET" duration-ms="92838">
+      <class name="test.TestingTheHomepage">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:33:06 EET" name="reportSetup" finished-at="2022-11-01T13:33:07 EET" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetup -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:46:42 EET" name="setUpTest" finished-at="2022-10-30T12:46:52 EET" duration-ms="9373" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:33:07 EET" name="setUpTest" finished-at="2022-11-01T13:33:14 EET" duration-ms="7595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="buyingProducts(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:46:53 EET" name="buyingProducts" data-provider="productsData" finished-at="2022-10-30T12:47:37 EET" duration-ms="43789" status="PASS">
+        <test-method signature="testHomePage(java.lang.String,java.lang.String)[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:33:16 EET" name="testHomePage" data-provider="UsersData" finished-at="2022-11-01T13:33:39 EET" duration-ms="22687" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[add-to-cart-sauce-labs-backpack]]>
+                <![CDATA[standard_user]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Sauce Labs Backpack]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[remove-sauce-labs-backpack]]>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyingProducts -->
-        <test-method signature="buyingProducts(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:47:37 EET" name="buyingProducts" data-provider="productsData" finished-at="2022-10-30T12:48:11 EET" duration-ms="33817" status="PASS">
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testHomePage(java.lang.String,java.lang.String)[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:33:39 EET" name="testHomePage" data-provider="UsersData" finished-at="2022-11-01T13:33:40 EET" duration-ms="1034" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[add-to-cart-sauce-labs-bolt-t-shirt]]>
+                <![CDATA[locked_out_user]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Sauce Labs Bolt T-Shirt]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[remove-sauce-labs-bolt-t-shirt]]>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyingProducts -->
-        <test-method signature="buyingProducts(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:48:11 EET" name="buyingProducts" data-provider="productsData" finished-at="2022-10-30T12:48:43 EET" duration-ms="31908" status="PASS">
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testHomePage(java.lang.String,java.lang.String)[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:33:40 EET" name="testHomePage" data-provider="UsersData" finished-at="2022-11-01T13:33:55 EET" duration-ms="14682" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[add-to-cart-sauce-labs-onesie]]>
+                <![CDATA[problem_user]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Sauce Labs Onesie]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[remove-sauce-labs-onesie]]>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyingProducts -->
-        <test-method signature="buyingProducts(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:48:43 EET" name="buyingProducts" data-provider="productsData" finished-at="2022-10-30T12:49:16 EET" duration-ms="32791" status="PASS">
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testHomePage(java.lang.String,java.lang.String)[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:33:55 EET" name="testHomePage" data-provider="UsersData" finished-at="2022-11-01T13:34:39 EET" duration-ms="44554" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[add-to-cart-sauce-labs-bike-light]]>
+                <![CDATA[performance_glitch_user]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Sauce Labs Bike Light]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[remove-sauce-labs-bike-light]]>
+                <![CDATA[secret_sauce]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- buyingProducts -->
-        <test-method signature="buyingProducts(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:49:16 EET" name="buyingProducts" data-provider="productsData" finished-at="2022-10-30T12:49:40 EET" duration-ms="24696" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[add-to-cart-sauce-labs-fleece-jacket]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sauce Labs Fleece Jacket]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[remove-sauce-labs-fleece-jacket]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buyingProducts -->
-        <test-method signature="buyingProducts(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:49:40 EET" name="buyingProducts" data-provider="productsData" finished-at="2022-10-30T12:50:14 EET" duration-ms="33571" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[add-to-cart-test.allthethings()-t-shirt-(red)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test.allTheThings() T-Shirt (Red)]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[remove-test.allthethings()-t-shirt-(red)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buyingProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:50:14 EET" name="tearDown" finished-at="2022-10-30T12:50:15 EET" duration-ms="667" status="PASS">
+        </test-method> <!-- testHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:34:39 EET" name="tearDown" finished-at="2022-11-01T13:34:40 EET" duration-ms="441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:test.BuyProducts@7161d8d1]" started-at="2022-10-30T12:50:15 EET" name="tearDownReport" finished-at="2022-10-30T12:50:17 EET" duration-ms="2613" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:test.TestingTheHomepage@1ca3b418]" started-at="2022-11-01T13:34:40 EET" name="tearDownReport" finished-at="2022-11-01T13:34:40 EET" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
-      </class> <!-- test.BuyProducts -->
+      </class> <!-- test.TestingTheHomepage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
